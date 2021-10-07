@@ -1,2 +1,2 @@
 # AI
-My love Github.
+I love Github.
