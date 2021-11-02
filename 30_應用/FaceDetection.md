@@ -7,6 +7,7 @@
 
 ....
 Python
+....
 from PIL import Image, ImageDraw #顯示圖片
 image = face_recognition.load_image_file("face93.jpg")
 faces = face_recognition.face_locations(image ,model='cnn')
@@ -21,6 +22,6 @@ for (top, right, bottom, left) in faces: #取出座標
     pil_image.show()
 pil_image.save("output1.jpg")
 display(pil_image)
-....
+
 
 ![output1](https://user-images.githubusercontent.com/89370789/139787389-ce15a8a7-a667-4100-8b70-a73d68595033.jpg)
