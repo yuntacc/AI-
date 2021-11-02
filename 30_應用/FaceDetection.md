@@ -4,8 +4,7 @@
 
 
 ![output2](https://user-images.githubusercontent.com/89370789/139787384-c9235558-9593-46ee-9b5b-00b8a3e52aae.jpg)
-```
-Python
+````Python
 
 from PIL import Image, ImageDraw #顯示圖片
 image = face_recognition.load_image_file("face93.jpg")
